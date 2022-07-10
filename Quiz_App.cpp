@@ -242,6 +242,6 @@ int main()
 
     Sleep(1000);
 
-    cout << "\nThat's it! Exciting, wasn't it? Thank you for taking Fun Quiz!\n" << endl;
+    cout << "That's it! Exciting, wasn't it? Thank you for taking Fun Quiz!\n" << endl;
     return 0;
 }

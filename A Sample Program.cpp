@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    string Nat = "Indian";
+    string Nat = "American";
     int Weight = 60;
     cout << "What is your nationality? : ";
     cin >> Nat;

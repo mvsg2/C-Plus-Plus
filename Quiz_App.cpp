@@ -228,11 +228,12 @@ int main()
     Sleep(2000);
 
     if (score == 5){
-        cout << "\nHey, you answered all the questions correctly! You got a perfect score..." << endl;
+        cout << endl;
+        cout << "Hey, you answered all the questions correctly! You got a perfect score..." << endl;
         Sleep(100);
         cout << "GREAT JOB!" << endl;
     }else{
-        cout << "You answered " << score << " questions correctly and " << number_of_questions-score << " question(s) incorrectly." << endl;
+        cout << "You answered " << score << " question(s) correctly and " << number_of_questions-score << " question(s) incorrectly." << endl;
         cout << "It's okay, learn from the incorrect ones and give it a try again!" << endl;
     }
 

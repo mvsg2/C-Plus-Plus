@@ -16,7 +16,7 @@ struct dailyTasks{
     } */
 };
 
-ostream& operator<<(ostream& COUT, dailyTasks dT){
+ostream& operator<<(ostream& COUT, dailyTasks& dT){
     COUT << "Task: " << dT.task << endl;
     COUT << "Duration: " << dT.duration << " mins." << endl;
     return COUT;

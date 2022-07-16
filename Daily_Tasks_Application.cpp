@@ -4,7 +4,7 @@
 using namespace std;
 
 struct dailyTasks{
-    int duration;
+    float duration;
     string task;
     dailyTasks(string task_name, float task_duration){
         task = task_name;

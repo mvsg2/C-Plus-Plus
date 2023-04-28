@@ -7,7 +7,7 @@ Our ATM application must be able to:
 2. Deposit money
 3. Withdraw money
 4. Transfer money
-3 - Exit
+5 - Exit
 */
 void showMenu(){
     cout << "---------- MENU ----------" << endl;
